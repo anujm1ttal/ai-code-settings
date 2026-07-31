@@ -1,0 +1,46 @@
+# Phase N: [Phase Title]
+
+## Objectives
+
+[What this phase accomplishes. State the measurable outcomes.]
+
+## Technical Approach
+
+[How to accomplish it. Detail the strategy, design decisions, and key algorithms.]
+
+## File Changes
+
+[List of files to create/modify. Use relative paths from project root.]
+
+- `src/module_a.py` — Add XYZ functionality
+- `src/module_b.py` — Refactor ABC pattern
+- `tests/test_new_feature.py` — New test suite
+- `Artifacts/Plans/Phase-N-TODO.md` — Phase-level task tracking
+
+## Dependencies
+
+**Prerequisites (Must be true before starting):**
+- Previous phase completion (or specific module readiness)
+- Any external tool/data requirements
+- Team/stakeholder sign-offs
+
+**Enablements (What this phase unlocks):**
+- Next phase's capabilities
+- Downstream integrations
+- Public API changes
+
+## Hard Rules (Auditor Rejects on Violation)
+
+[2-3 invariants this phase must never break — see `rules/common/standards.md`
+§"The Negative Test Suite". Success Metrics prove the positive goal; Hard Rules
+give the auditor explicit grounds for immediate rejection.]
+
+1. [Invariant 1, e.g., "No behavior change to X outside this phase's scope."]
+2. [Invariant 2, e.g., "Migrations are additive — never delete existing data."]
+
+## Success Metrics
+
+- [ ] Metric 1: [Numeric target, e.g., "All 15 unit tests pass"]
+- [ ] Metric 2: [Measurable outcome, e.g., "Zero regressions in integration suite"]
+- [ ] Metric 3: [Quality gate, e.g., "Code coverage >85%"]
+- [ ] Metric 4: [Audit gate, e.g., "Auditor PASS on logic and style"]
